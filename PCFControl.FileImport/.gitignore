@@ -12,3 +12,6 @@
 # msbuild output directories
 /bin
 /obj
+
+#generated files
+package-lock.json
