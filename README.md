@@ -1,2 +1,2 @@
 # FileImportPCF
-Return File type object from PCF control
+Return File type object as Output
