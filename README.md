@@ -52,6 +52,19 @@ Example returned object:
   "name": "Invoice.pdf"
 }
 ```
+📸 Demo <br/>
+<img width="305" height="100" alt="image" src="https://github.com/user-attachments/assets/5f11cbf2-0322-41e7-a465-e67138c9becf" /> <br/>
+
+1. UI Example:
+    * Button before upload: "Import File"
+    * Button after upload: "File Imported ✅"
+    
+2. Power Automate Example:
+Use file.contentBytes and file.name directly in flow actions such as:
+    * Create file in SharePoint
+    * Upload file in Azure Blob
+    * Send an email with attachment
+    * Store in Dataverse File column
 
 🎮 Usage
 1. Add the control to a Canvas App / Custom Page
