@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="fi" constructor="FileImport" version="0.0.1" display-name-key="FileImport" description-key="FileImport_OutputFileContent" control-type="virtual" >
+  <control namespace="fi" constructor="FileImport" version="0.0.2" display-name-key="FileImport" description-key="FileImport_OutputFileContent" control-type="virtual" >
     <!--external-service-usage node declares whether this 3rd party PCF control is using external service or not, if yes, this control will be considered as premium and please also add the external domain it is using.
     If it is not using any external service, please set the enabled="false" and DO NOT add any domain below. The "enabled" will be false by default.
     Example1:
@@ -13,6 +13,8 @@
     -->
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
     <property name="ImportLabel" display-name-key="ImportButton_Display" description-key="ImportButton_Desc" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="ImportedLabel" display-name-key="ImportedButton_Display" description-key="ImportedButton_Desc" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="Reset" display-name-key="Reset_Display" description-key="Reset_Desc" of-type="TwoOptions" usage="input" required="false" />
     <property name="errorMessage" display-name-key="ErrorMessage_Display" description-key="ErrorMessage_Desc" of-type="Multiple" usage="output" required="false" />
 
     <!-- A hidden property used by Canvas to get the output object schema -->
